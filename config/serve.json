@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://pragdigi.sharepoint.com/sites/dev/Lists/SalesTracking/AllItems.aspx",
+      "customActions": {
+        "3c0841d1-eef2-485a-8bc2-5771d8314b2e": {
+          "location": "ClientSideExtension.ListViewCommandSet",
+          "properties": {
+            "messagePrefix": "[command_set_prefix]"
+          }
+        }
+      }
+    },
+    "commandSet": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "customActions": {
+        "3c0841d1-eef2-485a-8bc2-5771d8314b2e": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}
