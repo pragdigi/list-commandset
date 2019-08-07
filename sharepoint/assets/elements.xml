@@ -4,7 +4,7 @@
         Title="CommandSet"
         RegistrationId="100"
         RegistrationType="List"
-        Location="ClientSideExtension.ListViewCommandSet"
+        Location="ClientSideExtension.ListViewCommandSet.CommandBar"
         ClientSideComponentId="3c0841d1-eef2-485a-8bc2-5771d8314b2e"
         ClientSideComponentProperties="{&quot;messagePrefix&quot;:&quot;[command_set_prefix]&quot;}">
     </CustomAction>

@@ -4,10 +4,10 @@
   "https": true,
   "serveConfigurations": {
     "default": {
-      "pageUrl": "https://pragdigi.sharepoint.com/sites/dev/Lists/SalesTracking/AllItems.aspx",
+      "pageUrl": "https://pragdigi.sharepoint.com/sites/team/Lists/test/AllItems.aspx",
       "customActions": {
         "3c0841d1-eef2-485a-8bc2-5771d8314b2e": {
-          "location": "ClientSideExtension.ListViewCommandSet",
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
           "properties": {
             "messagePrefix": "[command_set_prefix]"
           }
